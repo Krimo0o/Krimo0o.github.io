@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krimo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div>
+        <a id="top"></a>
+    </div>
+    <header>
+
+
+        <!-- Modification pour le bouton de navigation -->
+        <div class="nav-button" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+
+        <section class="nav">
+            <div>
+                <a href="#top">
+                    <p>KRIMO</p>
+                </a>
+            </div>
+            <div>
+                <a href="#shop">
+                    <p>SHOP</p>
+                </a>
+            </div>
+            <div>
+                <a href="#collection">
+                    <p>COLLECTION</p>
+                </a>
+            </div>
+            <div>
+                <a href="#about">
+                    <p>ABOUT</p>
+                </a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="video-container">
+            <video autoplay loop muted id="background-video" src="./video/LOOP-KRIMO_SITE.mp4"></video>
+        </section>
+
+        <section id="shop">
+            <h1>SHOP</h1>
+
+            <div class="column-container">
+                <!-- Modification pour les images -->
+                <div class="column">
+                    <img src="./img/produit/01_TheNorthFace.png" alt="">
+                    <p>The North Face®</p>
+                    <p>Vest Dryzzle Futurelight</p>
+                </div>
+                <div class="column">
+                    <img src="./img/produit/03_Arc-teryx.png" alt="">
+                    <p>Arc’teryx®</p>
+                    <p>Veste BETA AR STORMHOOD</p>
+                </div>
+                <div class="column">
+                    <img src="./img/produit/02_Dickies.png" alt="">
+                    <p>Dickies 874®</p>
+                    <p>Work Pants</p>
+                </div>
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <img src="./img/produit/04_Carhartt.png" alt="">
+                    <p>Carhartt®</p>
+                    <p>Master Pant</p>
+                </div>
+                <div class="column">
+                    <img src="./img/produit/06_TN.png" alt="">
+                    <p>Nike®</p>
+                    <p>Air Max Plus</p>
+                </div>
+                <div class="column">
+                    <img src="./img/produit/07_adidas.png" alt="">
+                    <p>Adidas®</p>
+                    <p>Stan Smith</p>
+                </div>
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <img src="./img/produit/05_Trooper.png" alt="">
+                    <p>Trooper®</p>
+                    <p>Balaclava THERMO</p>
+                </div>
+                <div class="column">
+                    <img src="./img/produit/08_Puma.png" alt="">
+                    <p>Puma®</p>
+                    <p>Performance Face Mask</p>
+                </div>
+                <div class="column">
+                    <img src="./img/produit/09_PZ.png" alt="">
+                    <p>Powerzone®</p>
+                    <p>Fitness Gloves</p>
+                </div>
+            </div>
+            <div class="plusarticle">
+                <a href="./video/KRIMO.mp4">
+                    <div>
+                        <p>Voir notre collection en video →</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="collection">
+            <h1>COLLECTION</h1>
+
+            <div class="column-container">
+                <div class="column">
+                    <img src="./img/img_04.jpg" alt="">
+                </div>
+
+                <div class="column">
+                    <img src="./img/img_1-01.jpg" alt="">
+                </div>
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <img src="./img/img_instagram/Insta_Krimo-07.PNG" alt="">
+                </div>
+                <div class="column">
+                    <img src="./img/img_instagram/Insta_Krimo-08.PNG" alt="">
+                </div>
+                <div class="column">
+                    <img src="./img/img_instagram/Insta_Krimo-09.PNG" alt="">
+                </div>
+            </div>
+            <div class="column-container">
+                <div class="column">
+                    <img src="./img/img_1-03.jpg" alt="">
+                </div>
+                <div class="column" class="align-bottom">
+                    <img src="./img/img_02.jpg" alt="">
+                </div>
+            </div>
+            <div class="column-container">
+                <!-- Modification pour les images -->
+                <div class="column">
+                    <img src="./img/img_instagram/Insta_Krimo-16.PNG" alt="">
+                </div>
+                <div class="column">
+                    <img src="./img/img_instagram/Insta_Krimo-17.PNG" alt="">
+                </div>
+                <div class="column">
+                    <img src="./img/img_instagram/Insta_Krimo-18.PNG" alt="">
+                </div>
+            </div>
+            <div class="column-container">
+                <!-- Modification pour les images -->
+                <div class="column">
+                    <img src="./img/img_09.jpg" alt="">
+                </div>
+                <div class="column" class="align-bottom">
+                    <img src="./img/img_010.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>ABOUT</h1>
+
+            <div class="column-container">
+                <!-- Modification pour les images -->
+                <div class="column">
+                    <img src="./img/img_1-04.jpg" alt="">
+                </div>
+
+                <div class="column">
+                    <div class="text">
+                        <div class="logo"></div>
+                        <h1>Qu'est-ce que Krimo ?</h1>
+                        <p>
+                            Nous, c'est Krimo, et nous sommes bien plus qu'une simple marque. Chez nous, chaque produit
+                            est soigneusement sélectionné pour vous. Nous comprenons que vous méritez le meilleur, c'est
+                            pourquoi nous vous offrons une expérience unique. Vous cherchez l'originalité, le style et
+                            la qualité ? Vous l'avez trouvé. Bienvenue chez Krimo, votre nouvelle destination shopping !
+
+                        </p>
+                        <img src="./img/img_01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="info">
+            <div class="description">
+                <p>ēracom</p>
+                <p>|</p>
+                <p>LAB 2023</p>
+                <p>|</p>
+                <p>audiovisuel</p>
+                <p>|</p>
+                <p>module 2</p>
+                <p>|</p>
+                <p>insta <a href="https://www.instagram.com/_krimo.com_/">@_krimocom_</a></p>
+            </div>
+        </section>
+    </footer>
+    <script>
+        function toggleNav() {
+            const nav = document.querySelector('.nav');
+            const bars = document.querySelectorAll('.bar');
+
+            if (nav.style.display === 'block') {
+                nav.style.display = 'none';
+                bars[0].classList.remove('rotate-left');
+                bars[1].style.opacity = '1';
+                bars[2].classList.remove('rotate-right');
+            } else {
+                nav.style.display = 'block';
+                bars[0].classList.add('rotate-left');
+                bars[1].style.opacity = '0';
+                bars[2].classList.add('rotate-right');
+            }
+        }
+    </script>
+</body>
+
+</html>
